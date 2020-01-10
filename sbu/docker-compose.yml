@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  sbu-documentation:
+    container_name: sbu-docs
+    image: sbu-docs
+    ports:
+      - 3002:3002
+    build:
+      context: .
+    networks:
+     - documentnet
+    logging:
+      options:
+        max-size: 100m
+    restart: always
+    # volumes:
+      # - .:/home/node
+
+
+networks:
+  documentnet:

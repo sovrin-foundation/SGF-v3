@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  spu-documentation:
+    container_name: spu-docs
+    image: spu-docs
+    ports:
+      - 3001:3001
+    build:
+      context: .
+    networks:
+     - documentnet
+    logging:
+      options:
+        max-size: 100m
+    restart: always
+    # volumes:
+      # - .:/home/node
+
+
+networks:
+  documentnet:

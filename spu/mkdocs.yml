@@ -1,0 +1,48 @@
+site_name: 'Sovrin Public Utility'
+site_description: 'Sovrin Public Utility Governance Framework.'
+site_dir: 'html'
+
+nav:
+- Home:
+    - 'Overview': 'index.md'
+    - 'Governance': 'governing_body/bod.md'
+    - 'Trust Assurance': 'gf_assurance/index.md'
+- Legal:
+    - 'Trusted Network': 'gf_legal/ci_trusted_network.md'
+- Controlled:
+    - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
+    - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
+    - 'Founding Member Business Policies': 'gf_controlled/member_business_policies.md'
+    - 'Founding Member Technical Policies': 'gf_controlled/member_technical_policies.md'
+    - 'Economic Policies': 'gf_controlled/economic_policies.md'
+    - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
+    - 'Trust Network Polices': 'gf_controlled/trusted_network_policies.md'
+- Help:
+    - 'FAQ': 'faq.md'
+    - 'Glossary': 'glossary.md'
+    - 'Contact us': 'contact_us.md'
+
+plugins:
+    - search
+    - pdf-export:
+        verbose: true
+        media_type: print
+        enabled_if_env: ENABLE_PDF_EXPORT
+        combined: true
+        combined_output_path: /usr/share/nginx/spu-gf.pdf
+
+theme:
+    name: 'material'
+    custom_dir: 'theme'
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+
+copyright: Copyright &copy; 2019

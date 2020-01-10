@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  stm-documentation:
+    container_name: stm-docs
+    image: stm-docs
+    ports:
+      - 3000:3000
+    build:
+      context: .
+    networks:
+     - documentnet
+    logging:
+      options:
+        max-size: 100m
+    restart: always
+    # volumes:
+      # - .:/home/node
+
+
+networks:
+  documentnet:
