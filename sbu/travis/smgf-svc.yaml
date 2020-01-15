@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: smgf
+spec:
+  type: LoadBalancer
+  selector:
+    app: smgf
+  ports:
+  - protocol: TCP
+    name: http
+    port: 80
+    targetPort: 3000

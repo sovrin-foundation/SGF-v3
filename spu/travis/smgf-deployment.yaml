@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smgf
+  labels:
+    app: smgf
+spec:
+  selector:
+    matchLabels:
+      app: smgf
+  template:
+    metadata:
+      labels:
+        app: smgf
+    spec:
+      containers:
+      - name: smgf
+        image: ubuntu.16.04.6
+        imagePullPolicy: Always
+        ports:
+        - name: smgf
+          containerPort: 3000

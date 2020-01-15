@@ -1,0 +1,82 @@
+#
+# Sorvin Governance Framework Infrastructure for Travis CI based Documentation
+#
+
+# We're just using a simple environment that is setup and useful for building
+# Docker images; we don't need a bunch of other language support or anything.
+#
+# The whole purpose here is just to make a web server.
+language: generic
+# Makes sense to use the latest Ubuntu
+dist: xenial
+# This means we only clone the last three commits.
+# I stole this from a template; maybe 1 commit is sufficient?
+git:
+  depth: 3
+# We do a build on an Ubuntu VM sometimes just because it's easier
+# and faster than trying to get libindy to work on your Mac, if you
+# know what I mean. These lines make it so that only the master branch
+# is what is built.  Eventually we can get more complex with where
+# each branch ends up being deployed, etc, but for now, it's just
+# making it so we can have branches that work can happen on that don't
+# result in a build with every single little commit. Then we can
+# squash-merge them into master to deploy out to the environment.
+branches:
+  only:
+    - master
+    - prod
+# We want Docker installed so we can do the build "locally" on
+# this Travis machine.  That's the compute power we want to use
+# rather than expecting the Container Registry machines to do the job.
+# As such, we need Docker turned on.
+services:
+  - docker
+
+# Turns out you can now install kubectl using an apt server, which is much
+# preferable to just downloading any old random binary off the street.
+# Install helm.  Like kubectl, also required for deployment step.
+before_install:
+  - curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+  - echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+  - sudo apt-get update -qq
+  - sudo apt-get install -y kubectl
+  - sudo snap install helm --classic
+
+# This script installs the ibmcloud CLI, the two container service plugins.
+# See doc/TRAVIS.md for more info on why there isn't any logic
+# for caching or checking the existence of currently-existing binaries.
+install:
+  - ./travis/scripts/get-bluemix-tools.sh
+
+# Before we actually build, it's useful to check the versions of things.
+# We also need to login to Bluemix and then set
+# up Docker to be able to push to the IBM Container Registry.
+before_script:
+  - ibmcloud --version
+  - kubectl version --client
+  - ibmcloud login -r us-south --apikey $BLUEMIX_API_KEY
+
+# Build the agency and test containers.  Then run unit tests.
+# Check to make sure agency can be reached, then get log output
+# for agency in case there were any errors.
+script:
+  - echo "$DOCKERHUB_PASSWORD" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin
+  - ./travis/scripts/build_and_push.sh
+
+after_failure:
+  - docker logs agency --tail 700
+
+branches:
+  only:
+    - master
+#    - prod
+
+deploy:
+  - provider: script
+    script: ./travis/scripts/env-update.sh dev
+    on:
+      branch: master
+#  - provider: script
+#    script: scripts/env-update prod
+#    on:
+#      branch: prod
