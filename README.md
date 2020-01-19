@@ -20,3 +20,6 @@ The following collaboration teams will be responsible for authoring the contents
 6. Generated PDF Versions of GF Docs (```/pdf```)  
   * [Sovrin ToIP Metatsystem Intro (PDF)]()
   * [Sovrin Business Ledger Consortium Intro (PDF)]())
+
+## Continuous Integration Processing
+Refer to our [CI-Pipeline Architecture](./ci-pipeline-arch.md) for how this repo manages continuous integration as well as live online access.
