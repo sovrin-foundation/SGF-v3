@@ -6,7 +6,7 @@
 # Docker images; we don't need a bunch of other language support or anything.
 #
 # The whole purpose here is just to make a web server.
-language: generic
+language: minimal
 # Makes sense to use the latest Ubuntu
 dist: xenial
 # This means we only clone the last three commits.
