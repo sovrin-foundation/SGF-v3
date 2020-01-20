@@ -10,7 +10,7 @@ VERSION=${TRAVIS_TAG:-latest}
 #BBCU_IMAGE_TAG=${BBCU_IMAGE_TAG:-verifycreds/bbcu:$VERSION}
 STM_DOCS_IMAGE_TAG=stm-docs:${VERSION}
 SPU_DOCS_IMAGE_TAG=spu-docs:${VERSION}
-SBU_DOCS_IMAGE_TAG=sbu-docs:${VERSION}
+SBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:sbu-docs${VERSION}
 
 
 build_and_push () {

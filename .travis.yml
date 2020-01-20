@@ -56,9 +56,7 @@ before_script:
   - kubectl version --client
   - ibmcloud login -r us-south --apikey $BLUEMIX_API_KEY
 
-# Build the agency and test containers.  Then run unit tests.
-# Check to make sure agency can be reached, then get log output
-# for agency in case there were any errors.
+# Build images and push tghem to DockerHub.
 script:
   - echo "$DOCKERHUB_PASSWORD" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin
   - ./travis/scripts/build_and_push.sh
@@ -71,6 +69,7 @@ branches:
     - master
 #    - prod
 
+# Deplopy to Kubernetes Cluster. 
 #deploy:
 #  - provider: script
 #    script: ./travis/scripts/env-update.sh dev
