@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: smgf
+  name: sgfv3
   labels:
-    app: smgf
+    app: sgfv3
 spec:
   selector:
     matchLabels:
-      app: smgf
+      app: sgfv3
   template:
     metadata:
       labels:
-        app: smgf
+        app: sgfv3
     spec:
       containers:
-      - name: smgf
+      - name: sgfv3
         image: ubuntu.16.04.6
         imagePullPolicy: Always
         ports:
-        - name: smgf
+        - name: sgfv3
           containerPort: 3000

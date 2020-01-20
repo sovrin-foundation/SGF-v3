@@ -69,13 +69,9 @@ branches:
     - master
 #    - prod
 
-# Deplopy to Kubernetes Cluster. 
-#deploy:
-#  - provider: script
-#    script: ./travis/scripts/env-update.sh dev
-#    on:
-#      branch: master
-#  - provider: script
-#    script: scripts/env-update prod
-#    on:
-#      branch: prod
+# Deplopy to Kubernetes Cluster.
+deploy:
+ - provider: script
+    script: ./travis/scripts/env-update.sh
+    on:
+      branch: master

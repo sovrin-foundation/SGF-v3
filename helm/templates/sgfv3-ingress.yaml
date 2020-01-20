@@ -1,18 +1,18 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: smgf
+  name: sgfv3
   annotations:
     ingress.bluemix.net/client-max-body-size: size=10m
     ingress.bluemix.net/large-client-header-buffers: number=4 size=5m
-    ingress.bluemix.net/proxy-connect-timeout: serviceName=smgf timeout=10m
-    ingress.bluemix.net/proxy-read-timeout: serviceName=agency timeout=10m
+    ingress.bluemix.net/proxy-connect-timeout: serviceName=sgfv3 timeout=10m
+    ingress.bluemix.net/proxy-read-timeout: serviceName=sgfv3 timeout=10m
     ingress.bluemix.net/hsts: enabled=true maxAge=31536000 includeSubdomains=true
     ingress.bluemix.net/server-snippets: |
       proxy_headers_hash_max_size 1024;
       proxy_headers_hash_bucket_size 1024;
     ingress.bluemix.net/proxy-add-headers: |
-      serviceName=smgf {
+      serviceName=sgfv3 {
         Host $host;
         X-Real-IP $remote_addr;
         X-Forwarded-Proto $scheme;
@@ -20,10 +20,10 @@ metadata:
       }
 spec:
   rules:
-  - host: stm.sovrin.verify-creds.com
+  - host: {{.Values.gfdocprefix}}.gfwip.sovrin.org
     http:
       paths:
       - path: /
         backend:
-          serviceName: smgf
+          serviceName: sgfv3
           servicePort: 80
