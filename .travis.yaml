@@ -63,19 +63,19 @@ script:
   - echo "$DOCKERHUB_PASSWORD" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin
   - ./travis/scripts/build_and_push.sh
 
-after_failure:
-  - docker logs agency --tail 700
+#after_failure:
+#  - docker logs agency --tail 700
 
 branches:
   only:
     - master
 #    - prod
 
-deploy:
-  - provider: script
-    script: ./travis/scripts/env-update.sh dev
-    on:
-      branch: master
+#deploy:
+#  - provider: script
+#    script: ./travis/scripts/env-update.sh dev
+#    on:
+#      branch: master
 #  - provider: script
 #    script: scripts/env-update prod
 #    on:

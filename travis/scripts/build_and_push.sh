@@ -9,6 +9,8 @@ VERSION=${TRAVIS_TAG:-latest}
 #IBMHR_IMAGE_TAG=${IBMHR_IMAGE_TAG:-verifycreds/ibm-hr:$VERSION}
 #BBCU_IMAGE_TAG=${BBCU_IMAGE_TAG:-verifycreds/bbcu:$VERSION}
 STM_DOCS_IMAGE_TAG=stm-docs:${VERSION}
+SPU_DOCS_IMAGE_TAG=spu-docs:${VERSION}
+SBU_DOCS_IMAGE_TAG=sbu-docs:${VERSION}
 
 
 build_and_push () {
@@ -29,4 +31,6 @@ build_and_push () {
 #build_and_push $BBCU_IMAGE_TAG "BBCU" "$DIR/../bbcu"
 
 # Build STM Docs in the ./STM folder
-build_and_push $STM_DOCS_IMAGE_TAG "STM GF Docs" "$DIR/../.."
+#build_and_push $STM_DOCS_IMAGE_TAG "STM GF Docs" "$DIR/../../stm"
+#build_and_push $SPU_DOCS_IMAGE_TAG "SPU GF Docs" "$DIR/../../spu"
+build_and_push $SBU_DOCS_IMAGE_TAG "SBU GF Docs" "$DIR/../../sbu"
