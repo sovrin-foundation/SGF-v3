@@ -14,25 +14,30 @@ Create a new dedicate business identity utility where only members can exercise 
 Approach
 -----------------
 1. Consortium Building Phase (4Q19)
-  (a) Exploratory Sessions for prospective members.
-  (b) Prospective Founding Members nominate executive sponsor and consortium associate.
+
+	1. Exploratory Sessions for prospective members.
+	2. Prospective Founding Members nominate executive sponsor and consortium associate.
+
 2. Governance Framework Phase (1Q20)
-  (a) Solicitation for additional Founding Members is ongoing.
-  (b) Governance Framework Workgroup (GFWG), comprised of nominated Consortium Associates, will gather twice a week for 6-8 weeks over Zoom Mtgs to create the Governance Framework documents required to launch the DIBE Consortium.
-      - Collaborate with Sovrin Leadership on Sovrin Foundation Services & Costs.
-      - Leverage GitHub and open source Markdown documents to establish and host the DIBE Governance Framework documents.
-  (c) Formal proposal from the GFWG to Executive Sponsors of the DIBE Governance Framework.
+	1. Solicitation for additional Founding Members is ongoing.
+	2. Governance Framework Workgroup (GFWG), comprised of nominated Consortium Associates, will gather twice a week for 6-8 weeks over Zoom Mtgs to create the Governance Framework documents required to launch the DIBE Consortium.
+		* Collaborate with Sovrin Leadership on Sovrin Foundation Services & Costs.
+		* Leverage GitHub and open source Markdown documents to establish and host the DIBE Governance Framework documents.
+  3. Formal proposal from the GFWG to Executive Sponsors of the DIBE Governance Framework.
+
 3. Execution Phase (2Q20)
-  (a) Announce DIBE Consortium in conjunction with Sovrin Foundation.
-  (b) Create DIBE Board of Directors (formalization of Founding members via signing of agreements).
-  (c) Ongoing campaign for adding Stewards and Trust Anchors.
-  (d) Members (Founding, Stewards) create the Sovrin Business Utility (DID Ledger)
+
+  1. Announce DIBE Consortium in conjunction with Sovrin Foundation.
+	2. Create DIBE Board of Directors (formalization of Founding members via signing of agreements).
+	3. Ongoing campaign for adding Stewards and Trust Anchors.
+	4. Members (Founding, Stewards) create the Sovrin Business Utility (DID Ledger)
 
 Required Action
 -----------------
 Prospective Founding Members need to nominate with name and email your firms candidates for:
-- Executive Sponsor: Expected representative on the Board of Directors
-- Consortium Associate: DIBE Governance Framework Workgroup Participate. Candidates should have both business and technical acumen in the decentralized identity area plus have the ability to comfortably work in Github with markdown documents.  
+
+* Executive Sponsor: Expected representative on the Board of Directors
+* Consortium Associate: DIBE Governance Framework Workgroup Participate. Candidates should have both business and technical acumen in the decentralized identity area plus have the ability to comfortably work in Github with markdown documents.  
 
 The DIBE Governance Framework Workgroup will begin activities next week. The task at hand is to create a new set of control documents that derived from the initial work by Sovrin as available [here](https://sovrin.org/library/sovrin-governance-framework/)
 
