@@ -8,9 +8,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 VERSION=${TRAVIS_TAG:-latest}
 
-#GOVDMV_IMAGE_TAG=${GOVDMV_IMAGE_TAG:-verifycreds/gov-dmv:$VERSION}
-#IBMHR_IMAGE_TAG=${IBMHR_IMAGE_TAG:-verifycreds/ibm-hr:$VERSION}
-#BBCU_IMAGE_TAG=${BBCU_IMAGE_TAG:-verifycreds/bbcu:$VERSION}
 STM_DOCS_IMAGE_TAG=sovrinci/sgf-v3:stm-docs:${VERSION}
 SPU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:spu-docs:${VERSION}
 SBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:sbu-docs${VERSION}
