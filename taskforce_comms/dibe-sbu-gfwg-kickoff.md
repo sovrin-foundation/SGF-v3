@@ -4,7 +4,8 @@ Background Material
 A [single PDF](./presentations/stm-sbu-dibe-intro.pdf) covers three key introductory discussion points:
 a) What are the tactical and strategic options for enterprises today to participate in collaborative efforts around the ToIP Stack (architecture).
 b) What are the motivating factors within the Sovrin Community for a transition from a Single Ledger Utility to a Network of Ledgers (Network of Networks)?
-	NOTE: GDPR/CCPA and CryptoToken risks are inhibitors for adoption around decentralized identity for enterprises. We need a tactical safe-zone!
+
+>NOTE: GDPR/CCPA and CryptoToken risks are inhibitors for adoption around decentralized identity for enterprises. We need a tactical safe-zone!
 c) How do we establish the necessary governance framework artifacts (business, legal, technical documents) necessary to launch a new business utility?
 
 Proposal
