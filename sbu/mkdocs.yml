@@ -1,28 +1,41 @@
-site_name: 'Sovrin Business Utility'
+site_name: 'Sovrin Business Utility Governance Framework'
 site_description: 'Sovrin Business Utility Governance Framework.'
 site_dir: 'html'
 
 nav:
-- Home:
+- Informational:
     - 'Overview': 'index.md'
-    - 'Consortium': 'governing_body/consortium.md'
-    - 'Motivation': 'governing_body/transition.md'
-    - 'Master Document': 'governing_body/masterdoc.md'
+    - 'Consortium': 'gf_info/consortium.md'
+    - 'Motivation': 'gf_info/transition.md'
+    - 'Membership': 'gf_info/membership.md'
+    - 'Term Sheet': 'gf_info/termsheet.md'
+- Constitutional:
+    - 'Master Document': 'gf_info/masterdoc.md'
+    - 'Glossary': 'gf_info/glossary.md'
+    - Controlled:
+        - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
+        - 'Consortium Bylaws': 'gf_controlled/by_laws.md'
+        - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
+        - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
+        - 'Ledger Data Policies': 'gf_controlled/ledger_data_policies.md'
+        - 'Member Business Policies': 'gf_controlled/member_business_policies.md'
+        - 'Member Technical Policies': 'gf_controlled/member_technical_policies.md'
+        - 'Economic Policies': 'gf_controlled/economic_policies.md'
+        - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
+        - 'Trust Network Polices': 'gf_controlled/trusted_network_policies.md'
+    - Legal:
+        - 'Architecture': 'gf_legal/legal_arch.md'
+        - 'Trusted Network': 'gf_legal/trusted_network.md'
+        - 'Member Agreements': 'gf_legal/member_agreement.md'
+        - 'Steward Data Processing Agreement': 'gf_legal/member_dpa.md'
+        - 'Transaction Endorser Agreement': 'gf_legal/subscriber_agreement.md'
+        - 'Transaction Endorser Data Processing Agreement': 'gf_legal/subscriber_dpa.md'
+- Compliance:
     - 'Trust Assurance': 'gf_assurance/index.md'
-- Legal:
-    - 'Trusted Network': 'gf_legal/ci_trusted_network.md'
-- Controlled:
-    - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
-    - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
-    - 'Member Business Policies': 'gf_controlled/member_business_policies.md'
-    - 'Member Technical Policies': 'gf_controlled/member_technical_policies.md'
-    - 'Economic Policies': 'gf_controlled/economic_policies.md'
-    - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
-    - 'Trust Network Polices': 'gf_controlled/trusted_network_policies.md'
 - Help:
     - 'FAQ': 'faq.md'
-    - 'Glossary': 'glossary.md'
     - 'Contact us': 'contact_us.md'
+
 
 plugins:
     - search
@@ -47,4 +60,4 @@ markdown_extensions:
       permalink: true
 
 
-copyright: Copyright &copy; 2019
+copyright: Copyright &copy; 2020

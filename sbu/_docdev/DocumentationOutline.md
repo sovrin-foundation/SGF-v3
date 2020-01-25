@@ -20,7 +20,7 @@
 * Member Technical Policies
 * Economic Policies
 * Certification Mark Policies
-* Trust Network Polices
+* Trust Network Policies
 #### Help
 * FAQ
 * Glossary
