@@ -72,6 +72,6 @@ branches:
 # Deplopy to Kubernetes Cluster.
 deploy:
   - provider: script
-    script: ./travis/scripts/env-update.sh
+    script: ./travis/scripts/env_update.sh
     on:
       branch: master
