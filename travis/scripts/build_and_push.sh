@@ -10,7 +10,7 @@ VERSION=${TRAVIS_TAG:-latest}
 
 STM_DOCS_IMAGE_TAG=sovrinci/sgf-v3:stm-docs:${VERSION}
 SPU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:spu-docs:${VERSION}
-SBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:sbu-docs:${VERSION}
+SBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3-sbu-docs:${VERSION}
 
 build_and_push () {
     local IMAGE_TAG=$1
