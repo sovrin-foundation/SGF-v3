@@ -10,7 +10,7 @@ echo "Calling helm to upgrade Kubernetes Cluster with latest DockerHub Image..."
 #echo "Successfully upgraded environment STM
 #helm upgrade sgfv3-latest ../../helm --namespace default --set gfdocprefix=spu
 #echo "Successfully upgraded environment SPU
-helm upgrade sgfv3-latest ../../helm --namespace default --set gfdocprefix=sbu
+helm upgrade sgfv3-latest helm --namespace default --set gfdocprefix=sbu
 echo "Successfully upgraded environment SBU
 
 
