@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sgfv3
-        image: ubuntu.16.04.6
+        image: {{Values.image_name}}
         imagePullPolicy: Always
         ports:
         - name: sgfv3
