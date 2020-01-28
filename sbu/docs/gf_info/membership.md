@@ -1,6 +1,12 @@
 ## Membership Types
 
-Participation in the Consortium is possible under two scenarios:
+Participation in the Consortium is possible under two categories:
+
+| Membership Category | Membership Type | Validator Node Hosting Required | Authorized for Ledger Writes |
+| --- | --- | --- | --- |
+| Annual Member | Founding Member | Yes | Yes - Unlimited |
+| Annual Member | Steward | Yes | Yes - Unlimited |
+| Subscriber | Trust Anchor | No | Yes - Limited by Subscription Plan |
 
 ### Annual Members
 
@@ -28,10 +34,13 @@ Private sector entities (businesses) can join and renew membership on an annual 
 
 ### Annual Subscribers
 
-Private sector entities (businesses) can join and renew subscription plans on an annual basis under t membership membership types:
+Private sector entities (businesses) can join and renew subscription plans on an annual basis based on available subscription plans:
 
 1. Trust Anchors
 * **Description**: Members that are willing to be responsible for the endorsement of transactions to the ledger. They are obligated to use Network approved endorser software and accountable for vetting the entities performing write requests.
-* **Limit**: Unlimited
+* **Limit**:
+  * Enterprise Plan: 1000 write transactions/yr
+  * Service Provider Plan: 2500 write transactions/yr
+
 * **Benefits**:
   * Approval to operate as an endorser of write requests.  
