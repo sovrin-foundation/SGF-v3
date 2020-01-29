@@ -20,7 +20,7 @@ metadata:
       }
 spec:
   rules:
-  - host: {{.Values.gfdocprefix}}.gfwip.sovrin.org
+  - host: {{.Values.gfdocprefix}}.sovrin.verify-creds.com
     http:
       paths:
       - path: /

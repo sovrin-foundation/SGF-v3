@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: sgfv3
-        image: {{Values.image_name}}
+        image: {{.Values.image_name}}
         imagePullPolicy: Always
         ports:
         - name: sgfv3
-          containerPort: 3000
+          containerPort: {{.Values.container_port}}
