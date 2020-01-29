@@ -1,0 +1,9 @@
+#
+# (C) Sovrin Foundation
+#
+# Default values for helm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+gfdocprefix: "stm"
+container_port: "3000"
+image_name: "sovrinci/sgf-v3-stm-docs:latest"
