@@ -22,4 +22,4 @@ The following collaboration teams will be responsible for authoring the contents
   * [Sovrin Business Ledger Consortium Intro (PDF)]())
 
 ## Continuous Integration Processing
-Refer to our [CI-Pipeline Architecture](./ci-pipeline-arch.md) for how this repo manages continuous integration as well as live online access.
+Refer to our [CI-Pipeline Architecture](./_ci-pipeline/ci-pipeline-arch.md) for how this repo manages continuous integration as well as live online access.
