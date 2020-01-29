@@ -2,11 +2,13 @@
 Background Material
 -----------------
 A [single PDF](./presentations/stm-sbu-dibe-intro.pdf) covers three key introductory discussion points:
-a) What are the tactical and strategic options for enterprises today to participate in collaborative efforts around the ToIP Stack (architecture).
-b) What are the motivating factors within the Sovrin Community for a transition from a Single Ledger Utility to a Network of Ledgers (Network of Networks)?
+
+1. What are the tactical and strategic options for enterprises today to participate in collaborative efforts around the ToIP Stack (architecture).
+2. What are the motivating factors within the Sovrin Community for a transition from a Single Ledger Utility to a Network of Ledgers (Network of Networks)?
 
 >NOTE: GDPR/CCPA and CryptoToken risks are inhibitors for adoption around decentralized identity for enterprises. We need a tactical safe-zone!
-c) How do we establish the necessary governance framework artifacts (business, legal, technical documents) necessary to launch a new business utility?
+
+3. How do we establish the necessary governance framework artifacts (business, legal, technical documents) necessary to launch a new business utility?
 
 Proposal
 -----------------
@@ -24,11 +26,11 @@ Approach
 	2. Governance Framework Workgroup (GFWG), comprised of nominated Consortium Associates, will gather twice a week for 6-8 weeks over Zoom Mtgs to create the Governance Framework documents required to launch the DIBE Consortium.
 		* Collaborate with Sovrin Leadership on Sovrin Foundation Services & Costs.
 		* Leverage GitHub and open source Markdown documents to establish and host the DIBE Governance Framework documents.
-  3. Formal proposal from the GFWG to Executive Sponsors of the DIBE Governance Framework.
+  	3. Formal proposal from the GFWG to Executive Sponsors of the DIBE Governance Framework.
 
 3. Execution Phase (2Q20)
 
-  1. Announce DIBE Consortium in conjunction with Sovrin Foundation.
+  	1. Announce DIBE Consortium in conjunction with Sovrin Foundation.
 	2. Create DIBE Board of Directors (formalization of Founding members via signing of agreements).
 	3. Ongoing campaign for adding Stewards and Trust Anchors.
 	4. Members (Founding, Stewards) create the Sovrin Business Utility (DID Ledger)
