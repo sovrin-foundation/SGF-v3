@@ -1,4 +1,5 @@
 ## Term Sheet
+>TEST this is a Test
 
 ### Optimal Consensus Threshold
 A balance between budget requirements and technology limitations will define the number of nodes required to operate the Identity Utility Network (“Network”). Initially this will be set at 13. The set of active nodes on the network will be periodically pulled from a pool of available nodes.
@@ -47,7 +48,7 @@ BoD is responsible for defining and approving the Network budget. Income for the
 BoD will refine and prune the SGFv2 to create an acceptable set of control and legal documents for the Network.
 
 ### Management
-The BoD will be required to manage a budget and hire resources to coordinate the management of the Network using Sovrin Foundation as an Identity Utility Administrator. 
+The BoD will be required to manage a budget and hire resources to coordinate the management of the Network using Sovrin Foundation as an Identity Utility Administrator.
 
 The BoD will hire a Network Manager who will report to the BoD and will be responsible for activities such as:
 1.	Financial Accounting
