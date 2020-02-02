@@ -1,7 +1,7 @@
 ## General Security Policies
 
 1. A Member (Annual and Subscribing) MUST maintain and follow IT security policies and practices that are integral
-to maintain protection of all services provided in association with the Sovrin Member
+to maintain protection of all services provided in association with the DIBE Consortium Member
 Agreement (“Member Services”). These policies MUST be mandatory for all employees
 of the Member involved with providing the Member Services. The Member shall
 designate its CIO or another officer to provide executive oversight for such policies,
@@ -40,11 +40,10 @@ third-party audits, such as ISO 27001, SSAE SOC 2, or other industry standards.
 A Member Node:
 1. MUST be available to run as a Validator Node or Observer Node on any of the formal
 ledgers that make up the Sovrin Business Unit (SBU) Network.
-2. MUST run a release of the DIBE Source Code as approved and designated by
+2. MUST run a release of the DIBE Consortium Source Code as approved and designated by
 the Technical Governance Board (TGB).
-3. MUST facilitate an upgrade to a new version of the DIBE Source Code within
-three (3) business days of a new release that has been: a) recommended by the DIBE
-TGB, and b) accepted by the DIBE Consortium.
+3. MUST facilitate an upgrade to a new version of the DIBE Consortium Source Code within
+three (3) business days of a new release that has been: a) recommended by the TGB, and b) accepted by the DIBE Consortium.
 4. MUST register all Node configuration data required by the Pool Ledger in a timely
 manner, keeping information up to date within three (3) business days of changes.
 5. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at
@@ -67,7 +66,7 @@ to SHOULD.
     vendor or community.
     2. SHOULD apply hypervisor patches on a regular basis.
 3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose
-(physical or virtual) machine that MUST run DIBE Source Code, MAY run other
+(physical or virtual) machine that MUST run DIBE Consortium Source Code, MAY run other
 software approved by the TGB, and MUST NOT run any other software. Software
 required to support the node, such as monitoring, backup, and configuration
 management software, are approved as a general category. However, Members should
@@ -137,18 +136,16 @@ Member Node with an SMS-capable device for alerting.
 2. SHOULD aim to achieve at least 99.9% (three nines) uptime for their Node (this amounts
 to about 1.4 minutes of downtime per day or 9 hours per year).
 3. SHOULD coordinate downtime with other Members in advance via a mechanism as
-determined from time to time by agreement between the DIBE TGB and any other
-relevant DIBE Governing Body.
+determined from time to time by agreement between the TGB and any other
+relevant DIBE Consortium Governing Body.
 
 ## Node Selection Algorithm
 1. The selection of active Validator Nodes at any point in time, at least on the DIBE SBU
-Network, MUST be governed by the Node Selection Algorithm as specified by the DIBE
-TGB.
+Network, MUST be governed by the Node Selection Algorithm as specified by the TGB.
 2. Non-technical inputs or policy decisions implemented by the Node Selection Algorithm
 MUST be approved by the DIBE Consortium Board of Trustees.
 3. At any point in time, the Node Selection Algorithm MUST represent the TGB’s best
-efforts at designing an algorithm that applies the Core Principles of the DIBE
-Governance Framework. Recognizing the inherent tension and tradeoffs between some
+efforts at designing an algorithm that applies the Core Principles of the DIBE Consortium Governance Framework. Recognizing the inherent tension and tradeoffs between some
 of the Core Principles, the design of this algorithm should give priority to balancing:
     1. The Decentralization by Design principles, in particular the principles of Diffuse
     Trust and High Availability.
