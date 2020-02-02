@@ -11,7 +11,7 @@ echo "Calling helm to upgrade Kubernetes Cluster with latest DockerHub Image..."
 #helm upgrade sgfv3-latest ../../helm --namespace default --set gfdocprefix=spu
 #echo "Successfully upgraded environment SPU
 git rev-parse --verify refs/stash
-helm upgrade sgfv3-latest helm --install --namespace default --kubeconfig ./_ci-pipeline/config/kubernetes/boeee1qd0uhgsckare0g.yml -f ./helm/sbu_values.yaml
+helm upgrade sgfv3-latest helm --install --force --namespace default --kubeconfig ./_ci-pipeline/config/kubernetes/boeee1qd0uhgsckare0g.yml -f ./helm/sbu_values.yaml
 echo "Successfully upgraded environment SBU"
 
 exit 0
