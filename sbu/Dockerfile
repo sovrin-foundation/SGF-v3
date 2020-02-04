@@ -21,6 +21,6 @@ RUN pip3 install mkdocs-material
 #RUN pip3 install mkpdfs-mkdocs==1.0.1
 RUN pip3 install mkdocs-pdf-export-plugin
 
-ENV ENABLE_PDF_EXPORT=1
+ENV ENABLE_PDF_EXPORT=0
 
 RUN mkdocs build
