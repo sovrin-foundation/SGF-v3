@@ -13,18 +13,7 @@ dist: xenial
 # I stole this from a template; maybe 1 commit is sufficient?
 git:
   depth: 3
-# We do a build on an Ubuntu VM sometimes just because it's easier
-# and faster than trying to get libindy to work on your Mac, if you
-# know what I mean. These lines make it so that only the master branch
-# is what is built.  Eventually we can get more complex with where
-# each branch ends up being deployed, etc, but for now, it's just
-# making it so we can have branches that work can happen on that don't
-# result in a build with every single little commit. Then we can
-# squash-merge them into master to deploy out to the environment.
-branches:
-  only:
-    - master
-    - prod
+  
 # We want Docker installed so we can do the build "locally" on
 # this Travis machine.  That's the compute power we want to use
 # rather than expecting the Container Registry machines to do the job.
