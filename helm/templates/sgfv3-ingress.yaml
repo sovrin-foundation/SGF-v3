@@ -19,6 +19,9 @@ metadata:
         X-Forwarded-For $proxy_add_x_forwarded_for;
       }
 spec:
+  tls:
+  - hosts:
+    - {{.Values.gfdocprefix}}.sovrin.verify-creds.com
   rules:
   - host: {{.Values.gfdocprefix}}.sovrin.verify-creds.com
     http:
