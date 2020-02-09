@@ -22,6 +22,7 @@ spec:
   tls:
   - hosts:
     - {{.Values.gfdocprefix}}.sovrin.verify-creds.com
+    secretName: sovrin-metasystem-gf-4b1acfb86e8a8765489de45437c57938-0000
   rules:
   - host: {{.Values.gfdocprefix}}.sovrin.verify-creds.com
     http:
