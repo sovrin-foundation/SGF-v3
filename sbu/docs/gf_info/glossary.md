@@ -1,6 +1,10 @@
-The Sovrin Foundation published in the Sovrin Governance Framework V2 a [glossary of industry terms](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8).
+The Sovrin Foundation published in the Sovrin Governance Framework V2 a [glossary of industry terms](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8). The contents herein are considered additional terms specific to the **Sovrin Business Utility**.
 
-The contents herein are considered additional terms specific to the **Sovrin Business Utility**.
+### Trustee
+An Identity Owner entrusted with specific identity control responsibilities by another Identity Owner or with specific governance responsibilities by a Governance Framework. See Recovery Key Trustee
+
+### Consortium Trustee
+A Trustee who is a member of the DIBE Consortium Board of Directors. The trust in Consortium Trustees is bestowed collectively on behalf of all Identity Owners.
 
 ### DID Namespace
 
@@ -8,7 +12,7 @@ Building on URI Standards, the DID Specification allows for both  root namespace
 
 ### Peer-Net
 
-A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework.
+A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Backbone Network*.
 
 ### Network of Networks
 
@@ -21,6 +25,10 @@ An organization or consortium that is responsible for the management of a Peer-N
 ### Sovrin Foundation
 
 Provider of Services to Peer-Nets Governing Bodies.
+
+### Backbone Network
+
+A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Peer-Net*.
 
 ### Identity Utility Network
 
@@ -54,3 +62,12 @@ The system of ledgers under the did:sov Root Namespace that adhere to a ToIP Met
 ### Remote Metasystem Network
 
 The system of ledgers under a disparate Root Namespace that may or may not exist under a foreign ToIP Metasystem Governance Framework.
+
+### Key Recovery
+The process of recovering access to and control of a set of Private Keys—or an entire Wallet—after loss or compromise. Key Recovery is a major focus of the emerging DKMS standard for cryptographic key management. See also Recovery Key.
+
+### Recovery Key
+A special Private Key used for purposes of recovering a Wallet after loss or compromise. In the DKMS key management protocol, a Recovery Key may be cryptographically sharded for secret sharing among multiple Trustees.
+
+### Recovery Key Trustee
+A Trustee trusted by another Identity Owner to authorize sharing back a Recovery Key for purposes of restoring a Wallet after loss or compromise.
