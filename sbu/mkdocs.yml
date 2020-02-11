@@ -28,10 +28,8 @@ nav:
     - Legal:
         - 'Architecture': 'gf_legal/legal_arch.md'
         - 'Trusted Network': 'gf_legal/trusted_network.md'
-        - 'Member Agreements': 'gf_legal/member_agreement.md'
-        - 'Steward Data Processing Agreement': 'gf_legal/member_dpa.md'
-        - 'Transaction Endorser Agreement': 'gf_legal/subscriber_agreement.md'
-        - 'Transaction Endorser Data Processing Agreement': 'gf_legal/subscriber_dpa.md'
+        - 'Member Agreements': 'gf_legal/member_agreements.md'
+        - 'Non-Member Agreements': 'gf_legal/non_member_agreements.md'
 - Compliance:
     - 'Trust Assurance': 'gf_assurance/index.md'
 - Help:

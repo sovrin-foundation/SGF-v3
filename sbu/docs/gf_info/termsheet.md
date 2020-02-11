@@ -54,14 +54,14 @@ BoD is responsible for the refinement and evolution of an acceptable set of cont
 The BoD will be required to manage a budget and hire resources to coordinate the management of the Network. An initial candidate for such Services SHALL be the  Sovrin Foundation as an *Identity Utility Administrator*.
 
 The BoD will hire a Network Manager who will report to the BoD and will be responsible for activities such as:
-1.	Financial Accounting
-2.	Legal
-3.	Public Communications
-4.	Administrative
-5.	Membership Management
+  1.	Financial Accounting
+  2.	Legal
+  3.	Public Communications
+  4.	Administrative
+  5.	Membership Management
 
 The BoD will appoint a representative of the Network to serve on the Sovrin Foundation Board of Trustees.
 
 The BoD will appoint a Network Architect who will be responsible for interfacing with the Sovrin Foundation for activities such as:
-1.	Technical Strategy & Architecture
-2.	Build and Test
+  1.	Technical Strategy & Architecture
+  2.	Build and Test
