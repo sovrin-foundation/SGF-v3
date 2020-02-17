@@ -13,7 +13,7 @@ dist: xenial
 # I stole this from a template; maybe 1 commit is sufficient?
 git:
   depth: 3
-  
+
 # We want Docker installed so we can do the build "locally" on
 # this Travis machine.  That's the compute power we want to use
 # rather than expecting the Container Registry machines to do the job.
@@ -43,7 +43,11 @@ install:
 before_script:
   - ibmcloud --version
   - kubectl version --client
+  - echo "Logging into the IBM Cloud using Travis CI ApiKey..."
   - ibmcloud login -r us-south --apikey $BLUEMIX_API_KEY
+  - echo "Download, configure, and test Kubernetes cluster access for build environment..."
+  - ibmcloud ks cluster config --cluster boeee1qd0uhgsckare0g
+  - kubectl version --short
 
 # Build images and push tghem to DockerHub.
 script:
