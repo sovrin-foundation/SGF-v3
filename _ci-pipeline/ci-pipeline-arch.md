@@ -61,4 +61,4 @@ The ```.travis.yml``` file provides the configuration settings for the *Continuo
 * ```sgfv3-svc.yaml```: Defines the port variables for the LoadBalancer.
 
 ### Helm Charts
-Each sub-project (```sub```,```stm```,```spu```) defines a ```.yaml``` file that contains the variables necessary to drive the Helm Templates for the respective sub-project builds.
+Each sub-project (```sub```,```stm```,```spu```) defines a ```_values.yaml``` file that contains the variables necessary to drive the Helm Templates for the respective sub-project builds.
