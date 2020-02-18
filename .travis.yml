@@ -42,9 +42,11 @@ install:
 # up Docker to be able to push to the IBM Container Registry.
 before_script:
   - ibmcloud --version
-  - kubectl version --client
   - echo "Logging into the IBM Cloud using Travis CI ApiKey..."
   - ibmcloud login -r us-south --apikey $BLUEMIX_API_KEY
+  - echo "Download, configure, and test Kubernetes cluster access for build environment..."
+  - ibmcloud ks cluster config --cluster boeee1qd0uhgsckare0g
+  - kubectl version --client
 
 # Build images and push tghem to DockerHub.
 script:
