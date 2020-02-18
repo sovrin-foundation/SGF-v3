@@ -1,7 +1,7 @@
 
 Background Material
 -----------------
-A [single PDF](./presentations/stm-sbu-dibe-intro.pdf) covers three key introductory discussion points:
+A [single PDF](../sbu/_comms/presentations/stm-sbu-dibe-intro.pdf) covers three key introductory discussion points:
 
 1. What are the tactical and strategic options for enterprises today to participate in collaborative efforts around the ToIP Stack (architecture).
 2. What are the motivating factors within the Sovrin Community for a transition from a Single Ledger Utility to a Network of Ledgers (Network of Networks)?
