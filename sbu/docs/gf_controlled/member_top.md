@@ -1,4 +1,4 @@
-# 1. General Security Policies
+## General Security Policies
 
 1. A Member (Annual and Subscribing) MUST maintain and follow IT security policies and practices that are integral to maintain protection of all services provided in association with the DIBE Consortium Member Agreement (“Member Services”). These policies MUST be mandatory for all employees of the Member involved with providing the Member Services. The Member shall designate its CIO or another officer to provide executive oversight for such policies, including formal governance and revision management, employee education, and compliance enforcement.
 2. A Member MUST review its IT security policies at least annually and amend such
@@ -18,8 +18,8 @@ A Member Node:
 
 1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers that make up the Sovrin Business Unit (SBU) Network.
 1. MUST run a release of the DIBE Consortium Source Code as approved and designated by the Technical Governance Board (TGB).
-1. MUST facilitate an upgrade to a new version of the DIBE Consortium Source Code within three (3) business days of a new release that has been: 
-	2. recommended by the TGB, and 
+1. MUST facilitate an upgrade to a new version of the DIBE Consortium Source Code within three (3) business days of a new release that has been:
+	2. recommended by the TGB, and
 	3. accepted by the DIBE Consortium.
 1. MUST register all Node configuration data required by the Pool Ledger in a timely manner, keeping information up to date within three (3) business days of changes.
 1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the DIBE Crisis Management Plan for details.
@@ -103,7 +103,7 @@ determined from time to time by agreement between the TGB and any other relevant
     1. The DIBE Consortium MUST be notified immediately.
     1. Within 48 hours of notification, the DIBE Consortium MUST reset the
     Permissioned Test Network to erase the Personal Data.
-    
+
 
 # 8. Reporting Policies
 1. A Member MUST report to the responsible DIBE Consortium Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
