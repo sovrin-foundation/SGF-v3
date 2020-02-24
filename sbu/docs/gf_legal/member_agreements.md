@@ -10,6 +10,6 @@ Members are required to enter into contractual agreements between the DIBE Conso
 * *Optional* [Transaction Author Agreement (MS-WORD)](./contracts/trx_author_agreement.docx)
 
 ### Subscribers
-* [Subscriber Agreement (MS-WORD)](./contracts/subscriber_agreement.docx) **ToDo for Plans**
 * [Transaction Endorser Agreement (MS-WORD)](./contracts/trx_endorser_agreement.docx)
+* [Transaction Endorser Data Processing Agreement (MS-WORD)](./contracts/trx_endorser_dpa.docx)
 * *Optional* [Transaction Author Agreement (MS-WORD)](./contracts/trx_author_agreement.docx)
