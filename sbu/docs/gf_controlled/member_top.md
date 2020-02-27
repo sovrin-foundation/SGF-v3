@@ -1,6 +1,7 @@
-## General Security Policies
+# Member Technical and Organizational Policies
+# 1. General Security Policies
 
-1. A Member (Annual and Subscribing) MUST maintain and follow IT security policies and practices that are integral to maintain protection of all services provided in association with the DIBE Consortium Member Agreement (“Member Services”). These policies MUST be mandatory for all employees of the Member involved with providing the Member Services. The Member shall designate its CIO or another officer to provide executive oversight for such policies, including formal governance and revision management, employee education, and compliance enforcement.
+1. A Member (Founding Steward/Steward/Subscriber) MUST maintain and follow IT security policies and practices that are integral to maintain protection of all services provided in association with the DIBE Consortium Member Agreement (“Member Services”). These policies MUST be mandatory for all employees of the Member involved with providing the Member Services. The Member shall designate its CIO or another officer to provide executive oversight for such policies, including formal governance and revision management, employee education, and compliance enforcement.
 2. A Member MUST review its IT security policies at least annually and amend such
 policies as the Member deems reasonable to maintain protection of its Member
 Services.
@@ -44,7 +45,7 @@ adequate).
 8. MUST have a high-speed connection to the internet with highly available, redundant pipes (as of late 2019, 100 Mbps was considered adequate).
 9. MUST have at least one dedicated NIC for SBU Validator Node consensus traffic, and a different NIC to process external requests. Each NIC must have a stable, static, world-routable IP address.
 10. MUST be implemented in a way that does not endanger DIBE's high availability
-architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 2.9 above), using exactly one set of keys to respond to SBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the DIBE Consortium (or 30 seconds if not specified).
+architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to SBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the DIBE Consortium (or 30 seconds if not specified).
 11. MUST have a system clock that is demonstrably in sync with well-known NTP servers.
 12. SHOULD have a power supply consistent with high availability systems.
 

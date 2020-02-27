@@ -3,7 +3,7 @@
 All members that are approved to be *Transaction Endorsers* must adhere to the procedures and policies outlined herein.
 
 ## Operational Requirements
-1. hey are **obligated to use Network approved endorser software and accountable for vetting the entities**, *Transaction Authors*, that submit write requests.
+1. They are **obligated to use Network approved endorser software and accountable for vetting the entities**, and *Transaction Authors*, that submit write requests.
 
 ## Contractual Obligations
 1. Founding Stewards
@@ -17,4 +17,4 @@ All members that are approved to be *Transaction Endorsers* must adhere to the p
   * Sign Transaction Endorser DPA Agreement
 
 ## Transaction Author Vetting
-1. 
+1. Ensure the Transaction Author has signed the DIBE Consortium Transaction Author Agreement
