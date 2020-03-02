@@ -1,3 +1,16 @@
+## Ledger Data Policies
+
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name |DIBE Ledger Transaction Data |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs | Data and metadata processed by Nodes operated by Stewards in the course of completing a Transaction with the Sovrin Business Utility. |
+| Governed By | [Sovrin Technical Governance Board](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
+
+
 ## Ledger
 This document assumes that Member Validator Nodes ("Nodes") are all running instances of [Hyperledger Indy](https://github.com/hyperledger/indy-sdk) as the distributed ledger technology (DLT) that provides the underlying infrastructure for the Sovrin Business Utility ("the Ledger").
 

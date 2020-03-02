@@ -1,4 +1,16 @@
-# Member Business Policies 
+# Member Business Policies
+
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name | Member Business Policies |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs |
+Steward Qualification, Application, Activation, Operation, Notification, Suspension, Termination, and Transition |
+| Governed By | DIBE Governance Framework Work Group |
+
 
 ## 1. Member Qualification
 1. A Member MUST be a business organization registered to conduct business in at least one recognized Jurisdiction.
@@ -17,7 +29,7 @@ application or requalification process that the Member is:
 		1. 	Financial institution
 		2. Healthcare provider
 		3. Insurance company
-        
+
     1. A law firm, accounting firm, or other legally-regulated institution with at least five
     (5) years operating history.
     1. A non-governmental organization (NGO) or Social Purpose Organization with at
@@ -27,7 +39,7 @@ application or requalification process that the Member is:
     1. A certificate authority (CA) with at least five (5) years operating history.
     1. An Organization that does not qualify under one of the above categories but
     meets all of the following conditions:
-    
+
 		1.   Submits an application with written evidence satisfactory to the DIBE Consortium that it meets all the other requirements in this section and is fully capable of complying with all the requirements of DIBE Consortium Governance Framework.
 		2. Includes in its application a written statement explaining why it supports the mission of the DIBE Consortium and why it should be selected by the Consortium Board of Trustees as a Member.
 		3. Agrees, contingent on its approval as a Member, to publish and maintain that written statement as a public document linkable on the Web.
@@ -47,9 +59,9 @@ Certification, or Accreditation as specified by the DIBE Consortium Trust Assura
 into account:
 
     a. Public contributions of any kind, including but not limited to open source engineering resources, efforts to drive DIBE Consortium adoption, participation in DIBE Consortium governance, marketing efforts, and direct financial contributions, that the prospective Member has made in the past to the DIBE Consortium or the Sovrin Community.
-    
+
     b. Public contributions of any kind the prospective Member commits (in writing in its Member application) to making to the DIBE Consortium or the Sovrin Community.
-    
+
 5. Any other specific Practices and Procedures involved in the Member application process
     MUST be publicly documented on the DIBE Consortium website.
 

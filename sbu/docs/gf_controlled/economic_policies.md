@@ -1,5 +1,16 @@
 ## Economic Policies
 
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name | Economic Policies |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs |
+ |
+| Governed By | DIBE Governance Framework Work Group |
+
 ### Incentives
 
 1. Sovrin economic incentives MUST be designed to achieve the following purposes:

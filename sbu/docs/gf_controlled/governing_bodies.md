@@ -1,8 +1,21 @@
 
-This document lists all official governing bodies of the DIBE Consortium Foundation as determined by the
-DIBE Consortium Board of Directors. Notes:
+## Governing Bodies
 
-1. All DIBE Consortium Governing Bodies operate under the DIBE Consortium Governing Body Policies .
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name |DIBE Governing Bodies |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs | Governance bodies within the DIBE Consortium|
+| Governed By | DIBE Consortium Board of Directors |
+
+This document lists all official governing bodies of the DIBE Consortium Foundation as determined by the DIBE Consortium Board of Directors.
+
+## Preface
+
+1. All DIBE Consortium Governing Bodies operate under the DIBE Consortium Governing Body Policies.
 2. The formal name of each DIBE Consortium Governing Body begins with the word “Sovrin”. For simplicity, that prefix is not included in the names in this document.
 3. For access to the current membership roster, meeting information, agenda, and the minutes of any DIBE Consortium Governing Body, follow the link to its meeting page.
 

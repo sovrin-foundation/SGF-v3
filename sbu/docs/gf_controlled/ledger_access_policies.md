@@ -1,4 +1,14 @@
-# DIBE Consortium Ledger Access Policies
+# Ledger Access Policies
+
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name |DIBE Consortium Ledger Access Policies |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs | Policies for reading and writing to the Sovrin Ledger|
+| Governed By | DIBE Governance Framework Workgroup |
 
 ## 1. DECLARATION OF INTENT
 The DIBE Consortium will limit write access to that of Permissioned Write Access processing.

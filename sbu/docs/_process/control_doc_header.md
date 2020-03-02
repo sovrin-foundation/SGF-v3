@@ -3,8 +3,8 @@ This is a Controlled Document of the DIBE Governance Framework was approved by t
 
 | Document Name | |
 | --- | --- |
-| Version | |
+| Version | v0.9 |
 | Approval Date | |
-| Status | |
+| Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | |
 | Governed By | DIBE Consortium Board of Directors |

@@ -1,4 +1,17 @@
-# Endorser Technical and Organizational Policies 
+# Endorser Technical and Organizational Policies
+
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
+
+| Document Name | Endorser Technical and Organizational Policies |
+| --- | --- |
+| Version | v0.9 |
+| Approval Date | |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs |
+General Security Policies, Node Technical Policies, General Security Policies, Node Security Policies, Operating Policies, Node Selection Algorithm, Permissioned Test Network Policies, Reporting Policies |
+| Governed By | DIBE Governance Framework Work Group, [Sovrin Technical Governance Board](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
+
+
 # 1. General Security Policies
 1. Transaction Endorser MUST maintain and follow IT security policies and practices that
 are integral to maintain protection of all services provided in association with the

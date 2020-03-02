@@ -1,10 +1,12 @@
-This is a Controlled Document of the DIBE Governance Framework approved by the DIBE Consortium Board of Directors.
+## Governing Body Policies
+
+This is a Controlled Document of the DIBE Governance Framework was approved by the DIBE Consortium Board of Directors.
 
 | Document Name | DIBE Consortium Governing Body Policies |
 | --- | --- |
 | Version | |
 | Approval Date | |
-| Status | |
+| Status | Pre-Launch Phase: Governance Framework Development|
 | Governs | Chartering, Types and Membership, Chairpersons, Facilitators, Voting, Self-Organization, Meetings, and Meeting Pages |
 | Governed By | DIBE Consortium Board of Directors |
 
