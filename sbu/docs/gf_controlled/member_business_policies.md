@@ -1,55 +1,6 @@
 # Member Business Policies 
 
-## Board of Directors (BoD)
-Founding Members will have the right to appoint a board director. Each Founding Member will be allocated one vote for each appointed Director.  The BoD will establish a charter that will establish Officer roles and responsibilities. The BoD will establish terms for Officers, but no term shall exceed 3 years.
-
-## Management
-The BoD will be required to manage a budget and hire resources to coordinate the management of the Network using DIBE Consortium as an Identity Utility Administrator.
-
-The BoD will hire a Network Manager who will report to the BoD and will be responsible for activities such as:
-
-1.	Financial Accounting
-2.	Legal
-3.	Public Communications
-4.	Administrative
-5.	Membership Management
-
-The BoD will appoint a representative of the Network to serve on the DIBE Consortium Board of Trustees.
-
-The BoD will hire a Network Architect who will be responsible for interfacing with the DIBE Consortium for activities such as:
-
-1.	Technical Strategy & Architecture
-2.	Build and Test
-
-## Budget
-BoD is responsible for defining and approving the Network budget. Income for the budget will be derived from membership dues. The budget will be limited to expenses for the administration, operation, and maintenance of the Network.
-
-### Consortium Income
-
-#### Membership Dues
-
-1. Founding Members:  $30K/yr
-2. Stewards:  $25K/yr
-3. Subscribers: 
-	1. Enterprise Plan: 1000 write transactions/yr for $10K/yr
-	2. Service Provider Plan: 1500 write transactions/yr for $15K/yr
-
-
-## Membership Obligations
-1. Founding Members
-  * Sign Member Agreement
-  * Sign Trust Anchor Agreement (optional)
-  * Host 3 nodes (main, test, dev), each running Network approved code.
-2. Stewards
-  * Sign Member Agreement
-  * Sign Trust Anchor Agreement (optional)
-  * Host 3 nodes (main, test, dev), each running Network approved code.
-3. Subscribers:
-  * Sign Member Agreement
-  * Sign Trust Anchor Agreement (optional)
-
-
-## Member Qualification
+## 1. Member Qualification
 1. A Member MUST be a business organization registered to conduct business in at least one recognized Jurisdiction.
 2. A Member MUST comply with the laws and regulations of the Jurisdiction(s) of which the
 Member is part or in which the Member is legally licensed to operate or registered to
@@ -82,7 +33,7 @@ application or requalification process that the Member is:
 		3. Agrees, contingent on its approval as a Member, to publish and maintain that written statement as a public document linkable on the Web.
 		4. Receives approval to be a Member from the DIBE Consortium Board of Trustees.
 
-## Application
+## 2. Application
 1. The DIBE Consortium Member application and selection process MUST:
 	2. Use the Core Principles of the Governance Framework as a guide, with special attention to the Decentralization by Design principles.
 	3. Be publicly documented on the DIBE Consortium website.
@@ -102,7 +53,7 @@ into account:
 5. Any other specific Practices and Procedures involved in the Member application process
     MUST be publicly documented on the DIBE Consortium website.
 
-## Activation
+## 3. Activation
 
 1. Before a Member may qualify to have an active Validator Node on the DIBE Consortium Ledger, the Member MUST:
 	1. 	Have their application approved by the responsible DIBE Consortium Governing Body.
@@ -110,7 +61,7 @@ into account:
 	1. 	Pass any required tests on the DIBE Consortium Test Network as specified by the Technical Governance Board and documented in the DIBE Consortium Code Repository.
 2. After a Member has qualified to have an active Validator Node, the Member MUST designate the DIBE Consortium Ledger network(s) (e.g., DIBE Consortium Main Network, DIBE Consortium Staging Network, DIBE Consortium Builder Network, DIBE Consortium Permissioned Test Network, etc.) in which their Node may be activated.
 
-	1. The Member MUST make this designation following the procedures specified by the DIBE Consortium Technical Governance Board.
+	1. The Member MUST make this designation following the procedures specified by the Technical Governance Board.
 	1. The Member MUST designate activation in at least one DIBE Consortium Ledger network.
 	1. The Member MAY designate activation in more than one DIBE Consortium Ledger network.
 	1. If the Member designates its Node to be activated ONLY on the Permissioned Test Network, the Member MUST receive approval from the DIBE Consortium Board of Trustees. Such approval MAY have a time limit or other requirements as determined by the DIBE Consortium Board of Trustees.
@@ -123,12 +74,12 @@ Validator Node is activated on any DIBE Consortium Ledger network:
 4. Although a Member may make an announcement about being approved as a DIBE Consortium Member anytime after completing step 3.1.2, a Member MUST NOT make any public announcement of their Node being live on the DIBE Consortium Network prior to the day their Node is activated on at least one DIBE Consortium Ledger network.
 5. A Member whose application has been approved by the DIBE Consortium but whose Node does not qualify to be an active Validator Node within six months of the date of approval MUST requalify and be reapproved by the DIBE Consortium prior to activation.
 
-## Operation
+## 4. Operation
 
 1. A Member MUST operate its Node in compliance with the Member Technical and Organizational Policies.
 2. A Member MUST requalify at least annually via the requalification process in effect at that point in time as specified by the responsible DIBE Consortium Governing Body and documented on the DIBE Consortium website.
 
-## Notification
+## 5. Notification
 1. A Member MUST maintain current contact information for its business and technical
 points of contacts sufficient to ensure its staff are reachable in a timely manner.
 2. A Member MUST notify the responsible DIBE Consortium Governing Body if:
@@ -141,11 +92,11 @@ points of contacts sufficient to ensure its staff are reachable in a timely mann
 4. The DIBE Consortiumn MUST provide Members with at least 30 days notification of any
 material changes to the business policies implemented in DIBE Consortium Network environments. Notification about technical changes is covered under DIBE Consortium Member Technical and Organizational Policies .
 
-## Suspension
+## 6. Suspension
 1. A Member MUST be suspended by the responsible DIBE Consortium Governing Body under any of the following conditions:
 	1.     The Member no longer complies with the Member Business Policies, Member Technical and Organizational Policies, or any other requirements of the DIBE Consortium Governance Framework.
 	1.     The Member's Node has failed to achieve 98% availability over a period of 30 days.
-	1.     A security intrusion or violation has been reported and the DIBE Consortium Technical Governance Board is not satisfied that the Member has performed adequate remediation.
+	1.     A security intrusion or violation has been reported and the Technical Governance Board is not satisfied that the Member has performed adequate remediation.
 	1.     The Member fails to requalify under its annual requalification process specified in section 4.
 	1.     The Member has, in the sole judgment of the DIBE Consortium Board of Trustees, violated some or all of the Governance Framework principles, taken action against the purpose of the DIBE Consortium, or has shown behaviour contrary to the collective interest of the DIBE Consortium or performed action that brought the DIBE Consortium or the Consortium Network into disrepute.
 2. A Member who is suspended MUST not have an active Node on any DIBE Consortium Ledger network until such time as Member is able to provide reasonable assurance to the responsible DIBE Consortium Governing Body that:
@@ -157,7 +108,7 @@ material changes to the business policies implemented in DIBE Consortium Network
 	1. Request further remediation by the Member.
 	1. Terminate the Member.
 
-## Termination
+## 7. Termination
 1. A Member who has breached the terms of the DIBE Consortium Member Agreement MAY be
 terminated by a majority vote of the responsible DIBE Consortium Governing Body with ratification by the Board of Trustees.
 2. A Member who has been suspended and not been reactivated within 180 days following
@@ -166,11 +117,11 @@ suspension MUST be notified of automatic termination.
 be reinstated MUST disclose the previous termination in their application and explain the
 remediation steps that the Member has taken to requalify.
 
-## Transition
+## 8. Transition
 1. Founding Members (Members who were approved under the DIBE Consortium Provisional Trust
 Framework and executed the Consortium's Founding Member Agreement) MUST execute the
 new DIBE Consortium Member Agreement and Member Data Processing Agreement after it is
-approved by the DIBE Consortium Board of Trustees and before midnight UTC on 31 January 2020 (the “Founding Member Deadline”) in order to continue as an approved Founding
+approved by the DIBE Consortium Board of Trustees and before midnight UTC on 31 January 2021 (the “Founding Member Deadline”) in order to continue as an approved Founding
 Member.
 2. A Founding Member who does not execute the new DIBE Consortium Member Agreement by the
 Founding Member Deadline shall no longer be a Founding Member but MAY reapply to

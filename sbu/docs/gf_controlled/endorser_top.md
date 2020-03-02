@@ -57,7 +57,7 @@ and the status of any of the Transaction Endorser remediation and restoration ac
 In performing its Endorser Services, Transaction Endorser MUST:
 
 1. Comply with all relevant DIBE Consortium Ledger Access Policies.
-2. Follow any additional guidelines published by the Consortium Technical Governance Board
+2. Follow any additional guidelines published by the Technical Governance Board
 on the DIBE Consortium website or github site.
 
 © 2019 by DIBE Consortium. This work is licensed under the Creative Commons Attribution-

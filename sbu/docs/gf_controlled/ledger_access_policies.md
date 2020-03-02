@@ -44,7 +44,7 @@ Data.
 		1. 	Add or remove a Steward.
 		1. 	Add or remove a Transaction Endorser.
 		1. 	Create or update the DIBE Consortium Ledger Fee Table.
-	1. 	A Trustee MAY make DIBE Consortium Ledger maintenance Transactions if the Transaction is approved by either the DIBE Consortium Board of Trustees, the DIBE Consortium Technical Governance Board, or the DIBE Consortium Foundation Chief Technical Officer.
+	1. 	A Trustee MAY make DIBE Consortium Ledger maintenance Transactions if the Transaction is approved by either the DIBE Consortium Board of Trustees, the Technical Governance Board, or the DIBE Consortium Foundation Chief Technical Officer.
 3. DIBE Consortium Stewards are automatically permitted to serve in the role of Transaction Endorsers provided the Steward agrees to the Transaction Endorser Agreement by submitting a physically or digitally signed copy to the DIBE Consortium Foundation.
 4. Organizations other than Stewards are permitted to serve in the role of Transaction Endorsers provided::
 	1. The Organization submits a Transaction Endorser application to the DIBE Consortium Foundation that includes evidence that the Organization is a legally registered entity in a recognized Jurisdiction.
@@ -67,7 +67,7 @@ Data.
 DIBE Consortium Ledger unless marked by a Tombstone.
 2. Once Tombstone functionality has been: 
 	3. implemented by the DIBE Consortium Community, 
-	4. approved by the DIBE Consortium Technical Governance Board, and 
+	4. approved by the Technical Governance Board, and 
 	5. approved by the DIBE Consortium Board of Trustees, a Steward MAY mark a Transaction as a Node-Specific Tombstone if:
 		1. Requested by the Transaction Author of a Transaction for a valid reason as specified by the Transaction Author Agreement.
 		1. Required of the Steward by a court order.
