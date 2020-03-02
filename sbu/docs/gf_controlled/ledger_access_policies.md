@@ -1,13 +1,10 @@
 # DIBE Consortium Ledger Access Policies
 
 ## 1. DECLARATION OF INTENT
-The policies defined in this version of this document—in particular
-those regarding Permissioned Write Access and Personal Data—have been adopted by the
-DIBE Consortium during the period required to transition from the current policy of
-Permissioned Write Access to the new policy of Public Write Access as defined in this document. The DIBE Consortium Foundation intends to accomplish this transition as soon as the relevant regulatory reviews can be completed.
+The DIBE Consortium will limit write access to that of Permissioned Write Access processing.
 
 ## 2. RECOMMENDED READING
-The terms used in this Controlled Document are more fully explained, including a visual diagram, on the Data Protection Regulation page of the Sovrin Foundation website.
+The terms used in this Controlled Document are more fully explained, including a visual diagram, in the [Legal Architecture Overview](../gf_legal/legal_arch.md).
 
 ### 1. Transaction Author Agreement
 1. The DIBE Consortium Foundation MUST:
@@ -32,11 +29,11 @@ Data.
 3. A Transaction Endorser MUST:
 	1. Only submit Transactions from Transaction Authors who have explicitly agreed to the Transaction Author Agreement by physically or digitally signing a copy.
 	1. Maintain physical or digital evidence of conformance to this policy.
- 
+
 ### 3. Permissioned Write Access
 1. The scope of the policies defined in this section is defined as follows:
 	1. The policies in this section MUST apply to the DIBE Consortium Main Network.
-	1. The policies governing write access to DIBE Consortium Test Networks MAY be defined separately by the DIBE Consortium Technical Governance Board or other Controlled Documents.
+	1. The policies governing write access to DIBE Consortium Test and Dev Networks MAY be defined separately by the DIBE Consortium Technical Governance Board or other Controlled Documents.
 2. DIBE Consortium Trustees are permitted to write Transactions to the DIBE Consortium Ledger under the following rules:
 	1. 	This policy MUST apply only to Trustees acting in their role as Trustees of the DIBE Consortium Foundation.
 	1. 	A Trustee MUST only make the following Transactions if the Transaction has been approved by a motion of the DIBE Consortium Board of Trustees.
@@ -54,20 +51,17 @@ Data.
 	1. Each Transaction includes a valid digital signature from the Transaction Author.
 	1. The Transaction is endorsed by an approved Transaction Endorser.
 	1. If the Transaction updates the state of a ledger-persisted data structure, it MUST be digitally signed by the same Transaction Author that recorded the previous state.
-	
+
 ### 4. Public Write Access
-1. Public Write Access MUST enable a Transaction Author to submit a Transaction directly to the DIBE Consortium Ledger without requiring the signature of a Transaction Endorser.
-2. As soon as resources permit and relevant legal and policy questions are resolved, the DIBE Consortium Foundation MUST:
-	1. Draft a revision to this Controlled Document defining the policies to enable Public Write Access.
-	1. If necessary, draft a revision to the Transaction Author Agreement or any other relevant Controlled Documents implementing the changes necessary to support these policies.
-	1. Work with the DIBE Consortium Community to implement the changes to the DIBE Consortium Open Source Code necessary to implement these policies.
-	
+1. Public Write Access is PROHIBITED.
+2. All ledger environments (Production, Development, Test) require Permissioned Write Access processing.
+
 ### 5. Public Read Access
 1. Stewards MUST provide public read access without cost for all Transactions on the
 DIBE Consortium Ledger unless marked by a Tombstone.
-2. Once Tombstone functionality has been: 
-	3. implemented by the DIBE Consortium Community, 
-	4. approved by the Technical Governance Board, and 
+2. Once Tombstone functionality has been:
+	3. implemented by the DIBE Consortium Community,
+	4. approved by the Technical Governance Board, and
 	5. approved by the DIBE Consortium Board of Trustees, a Steward MAY mark a Transaction as a Node-Specific Tombstone if:
 		1. Requested by the Transaction Author of a Transaction for a valid reason as specified by the Transaction Author Agreement.
 		1. Required of the Steward by a court order.
