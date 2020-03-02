@@ -24,4 +24,4 @@ Data and metadata processed by Nodes operated by Members in the course of comple
 ### Anoncreds Workflow
 The diagram below describes how and when data is written to the Ledger. For a detailed discussion pertaining to the processing of read and write transactions against the Ledger please refer to the [Anoncreds Workflow Process](https://github.com/hyperledger/indy-sdk/tree/master/docs/design/002-anoncreds#anoncreds-workflow).
 
-![anocreds-workflow](https://github.com/hyperledger/indy-sdk/raw/master/docs/design/002-anoncreds/anoncreds-workflow.svg?sanitize=true)
+![anocreds-workflow](../img/anoncreds-workflow.png)
