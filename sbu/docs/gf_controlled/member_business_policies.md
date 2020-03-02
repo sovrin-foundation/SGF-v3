@@ -7,10 +7,8 @@ This is a Controlled Document of the DIBE Governance Framework was approved by t
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs |
-Steward Qualification, Application, Activation, Operation, Notification, Suspension, Termination, and Transition |
+| Governs | Steward Qualification, Application, Activation, Operation, Notification, Suspension, Termination, and Transition |
 | Governed By | DIBE Governance Framework Work Group |
-
 
 ## 1. Member Qualification
 1. A Member MUST be a business organization registered to conduct business in at least one recognized Jurisdiction.

@@ -8,8 +8,7 @@ This is a Controlled Document of the DIBE Governance Framework was approved by t
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs |
-Operational Requirements, Contractual Obligations, Author Vetting |
+| Governs |Operational Requirements, Contractual Obligations, Author Vetting |
 | Governed By | DIBE Governance Framework Work Group, [Sovrin Technical Governance Board](https://sovrin.org/wp-content/uploads/Sovrin-Technical-Governance-Board-Charter-V4.pdf) |
 
 ## General
