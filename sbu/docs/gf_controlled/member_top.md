@@ -23,7 +23,7 @@ A Member Node:
 	2. recommended by the TGB, and
 	3. accepted by the DIBE Consortium.
 1. MUST register all Node configuration data required by the Pool Ledger in a timely manner, keeping information up to date within three (3) business days of changes.
-1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the DIBE Crisis Management Plan for details.
+1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the TGB Crisis Management Plan for details.
 1. MUST supply contact info for all administrators to the DIBE Consortium, whose accuracy is tested at least quarterly (e.g., by sending an email and/or text that doesn’t bounce).
 1. MUST maintain a system backup or snapshot or image such that recovering the system from failure could be expected to take one hour or less.
 
