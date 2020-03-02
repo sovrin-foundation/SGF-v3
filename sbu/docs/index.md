@@ -1,16 +1,25 @@
+As the proliferation of decentralized identity utility networks continues to increase, the global identity industry needs a way to categorize and position independent networks for discovery, access and trust.
 
-## Metasystem
-The [Sovrin ToIP Metasystem Governance Framework (STM-GF)]() provides the legal governance for all participating entities within the Sovrin ToIP Metasystem (STM) or **Sovrin Ecosystem**. The STM is comprised of DID Ledgers ("Peer-Nets") that are either part of the Sovrin Network (did:sov) or a trusted DID Ledger associated with a unique DID Root Namespace.
+This is the official document of the ​DIBE Governance Framework (DGF) which serves as the *constitution* for one such network, the *Sovrin Business Utility*.   
+
+## Ecosystem
+The [Sovrin ToIP Metasystem Governance Framework (STM-GF)]() provides the legal governance for all [Identity Utility Networks](./gf_info/glossary.md) within the Sovrin ToIP Metasystem (STM) ( "ecosystem "). Building on the notion of a network of ledgers, the STM represents an ecosystem comprised of Identity Utility Networks ("DID Ledgers") that are either part of the Sovrin DID Root Namespace (did:sov) or represented by a unique DID Root Namespace. The collection of all such Identity Utility Networks pertains to the a white-list of trusted ledgers. This white-list is referred to as the **Sovrin Ecosystem of Trust** and it is a by-product of the STM.
 
 ![stm-concepts](./img/stm-concepts.png)
 
-## Sovrin Network
-A collection of Peer-Nets that all adhere to the STM-GF but are managed as independent Identity Utilities each having its own Governance framework. Minimally there are two Peer-Nets within the Sovrin Network:
+### Sovrin Network
+There will be a variety of global ecosystems that implement the concepts outlined in the [DID Specification](https://www.w3.org/TR/did-core/). The **Sovrin Network** represents one such ecosystem where a number of [identity utility networks](./gf_info/glossary.md):
+
+* all adhere to the STM-GF
+* are all associated with the Sovrin DID Root Namespace (did:sov)
+* are managed by independent governing bodies that are guided by a specific governance framework
+
+Minimally there are two Identity Utility Networks within the Sovrin Network:
 
 * Sovrin Public Utility (*did:sov:pub*)
-* Sovrin Business Utility (*did:sov:biz*)
+* Sovrin Business Utility (*did:sov:sbu*)
 
-## Sovrin Business Utility
+### Sovrin Business Utility
 
 ![overview](./img/sov-toip-metasystem-biz.png)
 
@@ -21,4 +30,4 @@ The Sovrin Business Utility ("SBU") is intended to serve as a safe-zone for orga
 * Establish a governing board so no single organization owns the DID Ledger
 * Require adherences to a specific stack of open standards and protocols
 
-To meet these requirements, the SBU is an independently operated Peer-Net. A consortium of organizations operate the SBU as a public identity utility under its own governance framework. Consortium members pay annual membership fees and provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted commerce. As a Peer-Net within the Sovrin Network, the consortium leverages the Sovrin Foundation as a fee-based provider for the administration and delivery of a the DID Ledger associated with the *did:sov:biz* namespace.
+To meet these requirements, the SBU is an independently operated Peer-Net. A consortium of organizations operate the SBU as a public identity utility under its own governance framework. Consortium members pay annual membership fees and provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted commerce. As a Peer-Net within the Sovrin Network, the consortium leverages the Sovrin Foundation as a fee-based provider for the administration and delivery of a the DID Ledger associated with the *did:sov:sbu* namespace.

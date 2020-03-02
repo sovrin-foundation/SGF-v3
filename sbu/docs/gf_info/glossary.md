@@ -16,7 +16,7 @@ A distinct system of domain specific ledgers operated by decentralized peer node
 
 ### Network of Networks
 
-A decentralized collection of discoverable and interoperable Peer-Nets. Each Peer-Net a The internet is already an exemplar of a network of networks structure based on DNS and URI standards.
+A decentralized collection of discoverable and interoperable Peer-Nets. The internet is already an exemplar of a network of networks structure based on DNS and URI standards. A Metasystem or *Ecosystem* is comprised of one or more Peer-Nets.
 
 ### Governing Body
 
@@ -32,7 +32,7 @@ A distinct system of domain specific ledgers operated by decentralized peer node
 
 ### Identity Utility Network
 
-A Peer-Net governed by a consortium and preferably built on Hyperledger Indy.
+A Peer-Net governed by a consortium and preferably built on Hyperledger Indy. See also *Peer-Net*, *Backbone Network*.
 
 ### Identity Utility Administrator
 
@@ -49,7 +49,14 @@ A system of ledgers associated with a DID Root Namespace that operates under its
 ### Sovrin ToIP Metasystem Governance Framework
 
 A set of business, legal and technical governance documents that describe how members of the Sovrin Metasystem will operate.
-Sovrin Network: The system of ledgers under the did:sov Root Namespace.
+
+### Sovrin Network
+
+The system of ledgers under the Sovrin DID Root Namespace (```did:sov```).
+
+### Sovrin Ecosystem of Trust
+
+A white-list of Identity Utility Networks within the Sovrin ToIP Metasystem (STM).
 
 ### Sovrin Peer-Net
 

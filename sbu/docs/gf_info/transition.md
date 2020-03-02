@@ -14,7 +14,7 @@ The Sovrin Community is comprised of minimally two disparate market segments. Bo
 To counter the pendulum bob swinging so far to the left, we have witnessed proposals for alternative proprietary solutions that reflect an unacceptable swing of the bob to the right. This oscillation between extremes depicts an opportunity to steer the pendulum bob to a center position that would allow institutions to strike a balance between open privacy by design and financial risks.  
 
 ## Transition
-As the Sovrin Foundation transitions into the [Sovrin ToIP Metasystem Governance Framework (STM-GF)](), flexibility now exists for the establishment of one or more Peer-Nets that can serve the needs of the diverse segments of the Sovrin Community.
+As the Sovrin Foundation transitions to the [Sovrin ToIP Metasystem Governance Framework (STM-GF)](), flexibility now exists for the establishment of one or more Identity Utility Networks that can serve the needs of the diverse segments of the Sovrin Community.
 
 The Sovrin Business Utility is intended to address three key concerns:
 
