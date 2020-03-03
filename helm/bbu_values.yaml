@@ -1,0 +1,9 @@
+#
+# (C) Sovrin Foundation
+#
+# Default values for helm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+gfdocprefix: "bbu"
+container_port: "3002"
+image_name: "sovrinci/sgf-v3-bbu-docs:latest"

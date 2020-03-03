@@ -11,6 +11,7 @@ VERSION=${TRAVIS_TAG:-latest}
 STM_DOCS_IMAGE_TAG=sovrinci/sgf-v3:stm-docs:${VERSION}
 SPU_DOCS_IMAGE_TAG=sovrinci/sgf-v3:spu-docs:${VERSION}
 SBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3-sbu-docs:${VERSION}
+BBU_DOCS_IMAGE_TAG=sovrinci/sgf-v3-bbu-docs:${VERSION}
 
 build_and_push () {
     local IMAGE_TAG=$1
@@ -27,4 +28,5 @@ build_and_push () {
 # Build STM Docs in the ./STM folder
 #build_and_push $STM_DOCS_IMAGE_TAG "STM GF Docs" "$DIR/../../stm"
 #build_and_push $SPU_DOCS_IMAGE_TAG "SPU GF Docs" "$DIR/../../spu"
-build_and_push $SBU_DOCS_IMAGE_TAG "SBU GF Docs" "$DIR/../../sbu"
+#build_and_push $SBU_DOCS_IMAGE_TAG "SBU GF Docs" "$DIR/../../sbu"
+build_and_push $BBU_DOCS_IMAGE_TAG "BBU GF Docs" "$DIR/../../bbu"

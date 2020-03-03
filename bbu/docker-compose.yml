@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  bbu-documentation:
+    container_name: bbu-docs
+    image: bbu-docs
+    ports:
+      - 3002:3002
+    build:
+      context: .
+    networks:
+     - documentnet
+    logging:
+      options:
+        max-size: 100m
+    restart: always
+    # volumes:
+      # - .:/home/node
+
+
+networks:
+  documentnet:
