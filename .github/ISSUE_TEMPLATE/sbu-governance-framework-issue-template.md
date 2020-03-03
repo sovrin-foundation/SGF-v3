@@ -1,7 +1,7 @@
 ---
-name: SBU Governance Framework Issue Template
-about: Governance Framework Issue Template for Reviewers
-title: "[SBU] New Issue Title"
+name: BBU Governance Framework Issue Template
+about: Bedrock Governance Framework Issue Template for Reviewers
+title: "[BBU] New Issue Title"
 labels: ''
 assignees: ''
 
