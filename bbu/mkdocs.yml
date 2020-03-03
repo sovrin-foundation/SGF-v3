@@ -24,7 +24,7 @@ nav:
         - 'Endorser Technical and Organizational Policies': 'gf_controlled/endorser_top.md'
         - 'Economic Policies': 'gf_controlled/economic_policies.md'
         - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
-        - 'Trust Network Polices': 'gf_controlled/trusted_network_policies.md'
+        - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
     - Legal:
         - 'Architecture': 'gf_legal/legal_arch.md'
         - 'Trusted Network': 'gf_legal/trusted_network.md'
@@ -44,7 +44,7 @@ plugins:
         media_type: print
         enabled_if_env: ENABLE_PDF_EXPORT
         combined: true
-        combined_output_path: /usr/share/nginx/sbu-gf.pdf
+        combined_output_path: /usr/share/nginx/bbu-gf.pdf
 
 theme:
     name: 'material'

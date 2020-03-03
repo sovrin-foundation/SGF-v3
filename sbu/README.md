@@ -4,7 +4,7 @@ This repo contains the content resources for the management of the Sovrin Busine
 
 ## Build Website
 
-Use the ```docker-compose``` lifecycle to manage the build process for website that will be accessible via [localhost:3002](http:/localhost:3002):
+Use the ```docker-compose``` lifecycle to manage the build process for website that will be accessible via [localhost:3003](http:/localhost:3003):
 
 ```
 // bring down any running containers from this project
