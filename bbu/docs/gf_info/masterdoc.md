@@ -88,7 +88,7 @@ The Bedrock Governance Framework Master Document and the Controlled Documents li
 
 Unless otherwise noted, the Bedrock Governance Framework (BGF) will adhere to the same procedures for managing document lifecycles as outlined in Section 4 of the [STM-GF Master Document](https://sovrin.org/wp-content/uploads/Sovrin-Governance-Framework-V2-Master-Document-V1.pdf).
 
-All Bedrock Governance Framework documents will reside in a Github source control repository and will use the repo's Issue Tracker for change management.
+All Bedrock Governance Framework documents will reside in a Github source control repository and will use the associated Issue Tracker for change management.
 
 ## Appendix A: Controlled Documents
 The following Controlled Documents are normative components of the Bedrock Governance Framework V1. All framework documents are published by the Consortium in two forms:

@@ -82,3 +82,6 @@ A special Private Key used for purposes of recovering a Wallet after loss or com
 
 ### Recovery Key Trustee
 A Trustee trusted by another Identity Owner to authorize sharing back a Recovery Key for purposes of restoring a Wallet after loss or compromise.
+
+### Membership Management System
+The means by which the Board of Directors tracks membership entitlements and status.
