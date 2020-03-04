@@ -41,7 +41,7 @@ The purpose of the DIBE Governance Framework (DGF) is to define the business, le
 The purpose of the DIBE Consortium is to administer decentralized governance for Sovrin Business Utility.
 
 ## Core Principles
-Unless otherwise noted, the DIBE Governance Framework (DGF) is aligned with the principles outlined in the [STM-GF Master Document]().
+Unless otherwise noted, the DIBE Governance Framework (DGF) is aligned with the principles outlined in the [STM-GF Master Document](https://sovrin.org/wp-content/uploads/Sovrin-Governance-Framework-V2-Master-Document-V1.pdf).
 
 ## Core Polices
 In keeping with all Core Principles and especially the Decentralization by Design and Security by Design principles:
@@ -86,7 +86,7 @@ In keeping with the Sustainability principle:
 ## Governance
 The DIBE Governance Framework Master Document and the Controlled Documents listed in Appendix A shall be revised from time to time. The policies in this section govern this process.
 
-Unless otherwise noted, the DIBE Governance Framework (DGF) will adhere to the same procedures for managing document lifecycles as outlined in Section 4 of the [STM-GF Master Document]().
+Unless otherwise noted, the DIBE Governance Framework (DGF) will adhere to the same procedures for managing document lifecycles as outlined in Section 4 of the [STM-GF Master Document](https://sovrin.org/wp-content/uploads/Sovrin-Governance-Framework-V2-Master-Document-V1.pdf).
 
 All DIBE Governance Framework documents will reside in a Github source control repository and will use the repo's Issue Tracker for change management.
 
