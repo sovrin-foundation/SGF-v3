@@ -13,30 +13,58 @@ The corpus of DID Ledgers used by the Bedrock Consortium to operate the Bedrock 
 
 Building on URI Standards, the DID Specification allows for both  root namespace (did:xxx) and sub-namespace (did:xxx:yyy) conventions.
 
-### Decentralized DID Namespace Registry (DDNR)
-
-Provides registration, discovery, and access for Peer-Nets.
-
 ### Governing Body
 
 An organization or consortium that is responsible for the management of an Identity Utility Network.
 
-### Identity Utility Network
-
-A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace.
-Preferably built on Hyperledger Indy, this ```DID Ledger```, is governed by an independent governing body and its own governance framework. Due to the overuse of terms such as "Network" and "Ledger", the term "Utility" has been accepted by the Bedrock Consortium to allow for additional clarity. See also *Peer-Net*, *Backbone Network*.
-
-### Peer-Net
-
-A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Backbone Network*.
-
 ### Backbone Network
 
-A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Peer-Net*.
+A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Identity Utility Network*.
+
+### Peer-Net (*Deprecated*)
+
+A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace. Governed by its own governance framework. See also *Backbone Network*.
 
 ### Network of Networks
 
 A decentralized collection of discoverable and interoperable Identity Utility Networks. The internet is an exemplar of a network of networks structure based on DNS and URI standards.
+
+### Identity Utility Network (IUN)
+
+A distinct system of domain specific ledgers operated by decentralized peer nodes and associated with a DID Namespace.
+Preferably built on Hyperledger Indy, this ```DID Ledger```, is governed by an independent governing body and its own governance framework. Due to the overuse of terms such as "Network" and "Ledger", the term "Utility" has been accepted by the Bedrock Consortium to allow for additional clarity. See also *Backbone Network*.
+
+### Sovrin Identity Utility
+
+An Identity Utility Network that is register under the ```did:sov``` Root Namespace.
+
+### Sovrin Network
+
+One or more Identity Utility Networks that are register under the Sovrin DID Root Namespace (```did:sov```).
+
+### Remote Identity Utility (Remote IUN)
+
+An Identity Utility Network associated with a DID Root Namespace that operates under its own Governance Framework.
+
+### Sovrin ToIP Metasystem Governance Framework
+
+A set of business, legal and technical governance documents that describe how members of the Sovrin Ecosystem will operate.
+
+### Trusted Remote Network
+
+A Remote Identity Utility that is recognized by the Sovrin ToIP Metasystem Governance Framework as a trusted IUN.
+
+### Sovrin Ecosystem of Trust
+
+A white-list of Identity Utility Networks as defined by the Sovrin ToIP Metasystem (STM). This includes both IUNs within the Sovrin Network as well as any Trusted Remote Networks.
+
+### Remote Metasystem Network
+
+A system of ledgers under a disparate Root Namespace that may or may not exist under a foreign ToIP Metasystem Governance Framework.
+
+### Decentralized DID Namespace Registry (DDNR)
+
+Provides registration, discovery, and access for an Identity Utility Network.
 
 ### Metasystem
 An *Ecosystem* that is comprised of one or more Identity Utility Networks.
@@ -54,34 +82,6 @@ An Identity Owner entrusted with specific identity control responsibilities by a
 
 ### Consortium Trustee
 A Trustee who is a member of the Bedrock Consortium Board of Directors. The trust in Consortium Trustees is bestowed collectively on behalf of all Identity Owners.
-
-### Sovrin ToIP Metasystem Governance Framework
-
-A set of business, legal and technical governance documents that describe how members of the Sovrin Metasystem will operate.
-
-### Sovrin Network
-
-The system of ledgers under the Sovrin DID Root Namespace (```did:sov```).
-
-### Remote Peer-Net
-
-A system of ledgers associated with a DID Root Namespace that operates under its own Governance Framework. From a Sovrin perspective this would be a trusted ledger as it is recognized under the Sovrin GF.
-
-### Sovrin Ecosystem of Trust
-
-A white-list of Identity Utility Networks within the Sovrin ToIP Metasystem (STM).
-
-### Sovrin Peer-Net
-
-A peer-net that is register under the did:sov Root Namespace.
-
-### Trusted Remote Network
-
-The system of ledgers under the did:sov Root Namespace that adhere to a ToIP Metasystem Governance Framework.
-
-### Remote Metasystem Network
-
-The system of ledgers under a disparate Root Namespace that may or may not exist under a foreign ToIP Metasystem Governance Framework.
 
 ### Key Recovery
 The process of recovering access to and control of a set of Private Keys—or an entire Wallet—after loss or compromise. Key Recovery is a major focus of the emerging DKMS standard for cryptographic key management. See also Recovery Key.
