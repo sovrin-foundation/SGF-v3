@@ -42,4 +42,10 @@ Sovrin is amidst a transition from the Sovrin Provisional Trust Framework to a n
 While the social benefits of such an approach are appealing to many, the ability for many enterprises and some governments to embrace tokens at this point in time is limiting. Once again, a compromise that will allow two market segments to co-exist is to establish a community bound to a common vision but comprised of safe-spaces for each segment to establish their own governance.
 
 ## Common Ground
-The pathway to a common vision for decentralized identity is rooted in open standards and open source communities. Both market segments of the Sovrin Community can agree on an Open by Design approach.  While the members within each market segment may require incompatible governance models, both segments adamantly disagree with any deviation from an open approach at the technology or governance levels. Fundamentally, no single organization can own a network (system of ledgers) and the network must be built upon open standards and protocols where interoperability has been achieved.  
+The pathway to a common vision for decentralized identity is rooted in open standards and open source communities. As a community, we agree on:
+
+* an Open by Design approach
+* avoidance of with any deviation from an open approach at the technology or governance levels
+* the need to support a network of networks model that enables disparate market segments to deploy different governance
+
+Fundamentally, no single organization can own a network (system of ledgers) and the network must be built upon open standards and protocols where interoperability has been achieved.  
