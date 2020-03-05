@@ -73,14 +73,15 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 2. All Bedrock Ledger Environments MUST adhere to Permissioned Write Access processing.
 
 ### 5. Public Read Access
+1. The Bedrock Ledger MUST be publicly available for anyone to submit read transactions.
 1. Stewards MUST provide public read access without cost for all Transactions on the Bedrock Ledger unless marked by a Tombstone.
-2. Once Tombstone functionality has been:
+1. Once Tombstone functionality has been:
 	3. implemented by the underlying ledger technology,
 	4. approved by the Sovrin Technical Governance Board, and
 	5. approved by the Bedrock Consortium Board of Directors, a Steward MAY mark a Transaction as a Node-Specific Tombstone if:
 		1. Requested by the Transaction Author of a Transaction for a valid reason as specified by the Transaction Author Agreement.
 		1. Required of the Steward by a court order.
 		1. The Steward has evidence that the Transaction violates the terms and conditions of the Transaction Author Agreement.
-3. A Steward MUST NOT use a Node-Specific Tombstone for any other reason.
-4. Ledger-Wide Tombstones MUST NOT be implemented until policies governing their usage are published in a future version of this Controlled Document.
+1. A Steward MUST NOT use a Node-Specific Tombstone for any other reason.
+1. Ledger-Wide Tombstones MUST NOT be implemented until policies governing their usage are published in a future version of this Controlled Document.
 NOTE: Ledger-Wide Tombstones are not planned in the near future.

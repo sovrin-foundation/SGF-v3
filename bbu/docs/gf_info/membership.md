@@ -54,7 +54,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
     **Ledger Roles**:
         1. *Transaction Author*: Interacts with a  *Transaction Endorser* for the processing of write requests.
     * **Restrictions**:
-        1. Only the transaction types outlined in the Consortium's [ledger access policies](./gf_controlled/ledger_access_policies/.md) and [ledger data policies](./gf_controlled/ledger_data_policies/.md) are permitted.
+        1. Only the transaction types outlined in the Consortium's [ledger access policies](../gf_controlled/ledger_access_policies/.md) and [ledger data policies](../gf_controlled/ledger_data_policies/.md) are permitted.
         2. MUST sign a Transaction Author Agreement.
     * **Benefits**:
         1. Ability to use ledger for decentralized identity interactions.  
