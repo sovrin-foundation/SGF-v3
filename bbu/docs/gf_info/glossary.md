@@ -1,5 +1,14 @@
 The Sovrin Foundation published in the Sovrin Governance Framework V2 a [glossary of industry terms](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8). The contents herein are considered additional terms specific to the **Bedrock Business Utility**.
 
+### Node
+A computer network server running an instance of the code necessary to operate a distributed ledger or blockchain. In the Bedrock Consortium, a Node is operated by a Steward running an instance of the Bedrock Open Source Code to maintain the Bedrock Business Utility ( or DID Ledger). A Node must be either a Validator Node or an Observer Node.
+
+### Bedrock Open Source Code
+The computer software that is installed on all Nodes associated with the Bedrock Business Utility (BBU). This code determined by the Bedrock Board of Directors who may leverage the services of the Sovrin Technical Governance Board (TGB). The BBU adheres code selection and version guidance provided by the TGB, who collaborates within the Hyperledger Indy Project of the Linux Foundation to establish a TGB approved version of Hyperledger Indy within the the Sovrin Code Repository managed by the Sovrin Foundation.
+
+### Bedrock Ledger Environments
+The corpus of DID Ledgers used by the Bedrock Consortium to operate the Bedrock Business Utility. For example: ```prod```, ```test```, and ```dev```.
+
 ### DID Namespace
 
 Building on URI Standards, the DID Specification allows for both  root namespace (did:xxx) and sub-namespace (did:xxx:yyy) conventions.
