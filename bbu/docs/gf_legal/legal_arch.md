@@ -4,7 +4,7 @@ The Bedrock Business Utility ("Ledger") is governed by the Bedrock Consortium as
 It is expected that the Ledger will be used primarily by businesses who have a need to issue these credentials. The credentials themselves are never written to the Ledger, so these issuers generally have no need to write data to the Ledger. This approach avoids issuers increasing risks associated with personal data under data protection regulations such as the EU General Data Protection Regulation (GDPR), the Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), or the California Consumer Privacy Act (CCPA).
 
 ## GDPR Position Paper
-The Bedrock Consortium in conjunction with its legal counsel Perkins Coie has published a white paper providing a detailed legal analysis of the applicability of the GDPR to the Sovrin Ledger and Sovrin Network. The Bedrock Consortium recognizes this work-product as prior art with applicability to any DID Ledger, especially those that are trusted within the [Sovrin Ecosystem of Trust](../gf_info/glossary.md). The [GDPR Position Paper](https://sovrin.org/wp-content/uploads/GDPR-Paper_V1.pdf) also assesses the data protection requirements of the higher layers (the Agent-to-Agent Protocol Layer and the Credential Exchange Layer).
+The Sovrin Foundation in conjunction with its legal counsel [Perkins Coie](https://www.perkinscoie.com/en/) has published a white paper providing a detailed legal analysis of the applicability of the GDPR to the Sovrin Ledger and Sovrin Network. The Bedrock Consortium recognizes this work-product as prior art with applicability to any DID Ledger, especially those that are trusted within the [Sovrin Ecosystem of Trust](../gf_info/glossary.md). The [GDPR Position Paper](https://sovrin.org/wp-content/uploads/GDPR-Paper_V1.pdf) also assesses the data protection requirements of the higher layers (the Agent-to-Agent Protocol Layer and the Credential Exchange Layer).
 
 ## Legal Architecture
 The following figure is a visual illustration of the key roles and agreements in the Bedrock Consortium’s legal framework for regulatory compliance with data protection laws. Although it uses terms from the GDPR, it is intended for compliance with data protection regulations generally.
@@ -16,7 +16,7 @@ The following sections explain the actors, roles, policies, and legal agreements
 ## Actors & Roles
 
 ### Bedrock Consortium
-The Bedrock Consortium is an international subsidiary non-pro{t public trust organization chartered to provide governance for the Bedrock Business Utility. The Bedrock Consortium is responsible for development and
+The Bedrock Consortium is an international subsidiary non-profit public trust organization chartered to provide governance for the Bedrock Business Utility. The Bedrock Consortium is responsible for development and
 maintenance of the Bedrock Governance Framework (BGF) that establishes the purpose, principles, and policies for operation of Bedrock Business Utility.
 
 ### Transaction Authors
