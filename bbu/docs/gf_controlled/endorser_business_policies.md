@@ -19,14 +19,14 @@ All members that are approved to be *Transaction Endorsers* must adhere to the p
 
 ## Contractual Obligations
 1. Founding Stewards
-  * Sign Transaction Endorser Agreement
-  * Sign Transaction Endorser DPA Agreement
+    * Sign Transaction Endorser Agreement
+    * Sign Transaction Endorser DPA Agreement
 2. Stewards
-  * Sign Transaction Endorser Agreement
-  * Sign Transaction Endorser DPA Agreement
+    * Sign Transaction Endorser Agreement
+    * Sign Transaction Endorser DPA Agreement
 3. Subscribers
-  * Sign Transaction Endorser Agreement
-  * Sign Transaction Endorser DPA Agreement
+    * Sign Transaction Endorser Agreement
+    * Sign Transaction Endorser DPA Agreement
 
 ## Transaction Author Vetting
 1. Ensure the Transaction Author has signed the Bedrock Consortium Transaction Author Agreement
