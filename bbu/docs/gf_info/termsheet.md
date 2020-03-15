@@ -17,35 +17,34 @@ Founding Members will have the right to appoint a board director. Each Founding 
 ## Budget
 BoD is responsible for defining and approving the Network budget. Income for the budget will be derived from membership dues. The budget will be limited to expenses for the administration, operation, and maintenance of the Network.
 
-Minimum Operational Budget: $670K
+Minimum Annual Operational Budget: $TBD
 
 ### Membership Dues
-1.	Founding Stewards:  $30K/yr
-2.	Stewards:  $25K/yr
+1.	Founding Stewards:  $TBD/yr
+2.	Stewards:  $TBD/yr
 3.	Subscribers:
-    a.	Enterprise Plan: 1000 write transactions/yr for $10K/yr
-    b.	Service Provider Plan: 1500 write transactions/yr for $15K/yr
+    1.	Enterprise Plan: 1000 write transactions/yr for $TBD/yr
+    1.	Service Provider Plan: 1500 write transactions/yr for $TBD/yr
 
 ## Membership Obligations
 ### Founding Stewards
-   1. Sign Steward Agreement
-   2. Sign Transaction Endorser Agreement
-   3. Sign Transaction Author Agreement (optional)
-   4. Host 3 nodes (main, test, dev), each running Network approved code.
-   5. Host Network approved Transaction Endorser code.
-   
-### Stewards
-   1. Sign Steward Agreement
-   2. Sign Transaction Endorser Agreement
-   3. Sign Transaction Author Agreement (optional)
-   4. Host 3 nodes (main, test, dev), each running Network approved code.
-   5. Host Network approved Transaction Endorser code.
-   
-### Subscribers
-   1. Sign Transaction Endorser Agreement
-   2. Sign Transaction Author Agreement (optional)
-   3. Host Network approved Transaction Endorser code.
+1. Sign Steward Agreement
+2. Sign Transaction Endorser Agreement
+3. Sign Transaction Author Agreement (optional)
+4. Host 3 nodes (main, test, dev), each running Network approved code.
+5. Host Network approved Transaction Endorser code.
 
+### Stewards
+1. Sign Steward Agreement
+2. Sign Transaction Endorser Agreement
+3. Sign Transaction Author Agreement (optional)
+4. Host 3 nodes (main, test, dev), each running Network approved code.
+5. Host Network approved Transaction Endorser code.
+
+### Subscribers
+1. Sign Transaction Endorser Agreement
+2. Sign Transaction Author Agreement (optional)
+3. Host Network approved Transaction Endorser code.
 
 ## Governance Framework
 BoD is responsible for the refinement and evolution of an acceptable set of control and legal documents for the Network.
@@ -54,16 +53,16 @@ BoD is responsible for the refinement and evolution of an acceptable set of cont
 The BoD will be required to manage a budget and hire resources to coordinate the management of the Network. An initial candidate for such Services SHALL be the  Sovrin Foundation as an *Identity Utility Administrator*.
 
 The BoD will hire a Network Manager who will report to the BoD and will be responsible for activities such as:
-  
-  1.	Financial Accounting
-  2.	Legal
-  3.	Public Communications
-  4.	Administrative
-  5.	Membership Management
+
+1.	Financial Accounting
+2.	Legal
+3.	Public Communications
+4.	Administrative
+5.	Membership Management
 
 The BoD will appoint a representative of the Network to serve on the Sovrin Foundation Board of Trustees.
 
 The BoD will appoint a Network Architect who will be responsible for interfacing with the Sovrin Foundation for activities such as:
-  
-  1.	Technical Strategy & Architecture
-  2.	Build and Test
+
+1.	Technical Strategy & Architecture
+2.	Build and Test
