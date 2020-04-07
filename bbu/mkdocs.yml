@@ -38,12 +38,13 @@ nav:
 
 plugins:
     - search
-    - pdf-export:
-        verbose: true
-        media_type: print
-        enabled_if_env: ENABLE_PDF_EXPORT
-        combined: true
-        combined_output_path: /usr/share/nginx/bbu-gf.pdf
+#
+#    - pdf-export:
+#        verbose: true
+#        media_type: print
+#        enabled_if_env: ENABLE_PDF_EXPORT
+#        combined: true
+#        combined_output_path: /usr/share/nginx/bbu-gf.pdf
 
 theme:
     name: 'material'
