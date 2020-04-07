@@ -47,7 +47,8 @@ before_script:
   - ibmcloud login -r us-south --apikey $BLUEMIX_API_KEY
   - echo "Download, configure, and test Kubernetes cluster access for build environment..."
   - ibmcloud ks cluster config --cluster boeee1qd0uhgsckare0g
-  - kubectl version --client
+# - kubectl version --client
+  - kubectl version --short
 
 # Build images and push tghem to DockerHub.
 script:
